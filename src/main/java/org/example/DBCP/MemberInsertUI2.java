@@ -1,4 +1,4 @@
-package org.example.JDBC2;
+package org.example.DBCP;
 
 import java.util.Scanner;
 
@@ -21,9 +21,9 @@ public class MemberInsertUI2 {
         //가방만들기(new) -> 넣기(set) -> 전달
         MemberVO vo = new MemberVO();
         vo.setId(id값);
-        vo.setId(pw값);
-        vo.setId(name값);
-        vo.setId(tel값);
+        vo.setPw(pw값);
+        vo.setName(name값);
+        vo.setTel(tel값);
         dao.insert(vo);
     }
 }

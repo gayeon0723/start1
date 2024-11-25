@@ -1,4 +1,4 @@
-package org.example.JDBC2;
+package org.example.DBCP;
 
 public class MemberVO {
     //가방에 들어갈 데이터 공간을 할당(member테이블의 컬럼명과 동일)

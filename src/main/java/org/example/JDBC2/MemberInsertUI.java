@@ -1,6 +1,5 @@
 package org.example.JDBC2;
 
-import java.sql.SQLException;
 import java.util.Scanner;
 
 public class MemberInsertUI {

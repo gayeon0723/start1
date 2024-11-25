@@ -3,8 +3,6 @@ package org.example.JDBC2;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
-import java.sql.SQLException;
-import java.util.Scanner;
 
 public class MemberDAO {
     Connection con; //전역변수가 됨. null로 초기화!
